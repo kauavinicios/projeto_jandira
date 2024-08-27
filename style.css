@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.cabecalho {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    position: fixed;
+    top: 0;
+    background-color: bisque;
+    z-index: 100;
+}
+
+#logo {
+    font-family: "Pacifico", cursive;
+    font-size: 25pt;
+    margin: 0;
+    padding: 5px;
+    color: rgb(128, 87, 119);
+    text-shadow: 2px 2px 2px #f2a488a2;
+}
+
+#logo span {
+    color: #f2a488a4;
+}
+
+.menu a{
+    font-weight: 500;
+    font-size: large;
+    color: #7A4F8C;
+}
+
+.menu a:hover {
+    font-size: 15pt;
+    color: #8d5aa3;
+    text-shadow: 0.1rem 0.1rem 20px #58366681;
+}
+
+.corpo {
+    max-width: 85%;
+    margin: 60px auto 0 auto;
+    background-color: #f1dbc793;
+    box-shadow: 1px 1px 15px #251717;
+    padding-top: 10px;
+}
+
+.C-img img {
+    margin: auto;
+}
+
+/* .produtos {
+    background-color: bisque;
+    padding: 25px 0;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: auto; 
+    column-gap: 15px;
+    row-gap: 15px;
+} */
+
+.produtos {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rodape {
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 5px solid #7A4F8C;
+}
+
+.rodape p {
+    padding-right: 15px;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.rodape hr {
+    border: 1px solid #251717; 
+    width: 85%;
+    margin: 15px 0 0 0;
+}
+
+.copy {
+    text-align: center;
+    padding: 5px;
+}
+
+.info {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10%;
+}
+
+.info h6 {
+    color: #7A4F8C;
+    font-weight: 400;
+    position: relative;
+    right: 10px;
+    font-weight: 700;
+}
