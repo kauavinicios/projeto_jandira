@@ -10,6 +10,7 @@
     top: 0;
     background-color: bisque;
     z-index: 100;
+    border-bottom: 5px solid #7A4F8C ;
 }
 
 #logo {
@@ -40,7 +41,7 @@
 .corpo {
     max-width: 85%;
     margin: 60px auto 0 auto;
-    background-color: #f1dbc793;
+    background-color: #f5f5dc;
     box-shadow: 1px 1px 15px #251717;
     padding-top: 10px;
 }
